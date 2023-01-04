@@ -26,6 +26,16 @@ body {
 	text-indent: -3000px;
 }
 
+a:link,
+a:visited {
+	color: #b10333;
+	padding: 2px;
+}
+
+a:hover {
+	color: #e50040;
+}
+
 ul {
 	margin: 0;
 	padding: 0;
@@ -182,6 +192,7 @@ h3 {
 #lista-noticias li a img {
 	float: left;
 	margin: 5;
+	margin-right: 4px;
 }
 
 #lista-noticias li {
@@ -192,6 +203,7 @@ h3 {
 
 #lista-noticias li a {
 	text-decoration: none;
+	margin-left: 2px;
 }
 
 #lista-noticias li a h3 {
@@ -202,6 +214,7 @@ h3 {
 
 #lista-noticias li a p {
 	font-size: 0.7em;
+	color: #000;
 }
 
 #lista-noticias li:hover {
